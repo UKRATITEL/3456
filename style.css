@@ -57,6 +57,49 @@ nav ul li a:hover {
     font-size: 135%;
 }
 
+.navbar li {
+    display: inline-block;
+    position: relative;
+}
+
+down::after {
+    margin-left: 8px;
+}
+
+.submenu li a {
+    color: #7f7f7f;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0px 25px;
+    position: relative;
+    right: 60px;
+    transition: .4s ease-in-out;
+}
+
+.navbar li a:hover {
+    color: #E6855F;
+}
+
+.submenu {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #003539;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    width: 100%;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0% 0%;
+    transition: .6 ease-in-out
+}
+
+.navbar li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg)
+}
+
 .row {
     display: flex;
     height: 80%;
@@ -107,7 +150,7 @@ button:hover {
     transition: transform 0.5s;
 }
 
-.card1{
+.card1 {
     background-image: url(1/films/%D0%9A%D1%80%D0%B5%D0%BF%D0%BA%D0%B8%D0%B9_%D0%BE%D1%80%D0%B5%D1%88%D0%B5%D0%BA.jpg)
 }
 
@@ -119,6 +162,11 @@ button:hover {
     background-image: url(1/films/%D0%9A%D1%80%D0%B5%D0%BF%D0%BA%D0%B8%D0%B9_%D0%BE%D1%80%D0%B5%D1%88%D0%B5%D0%BA%203.jpg)
 }
 
-.card4{
+.card4 {
     background-image: url(1/films/%D0%9A%D1%80%D0%B5%D0%BF%D0%BA%D0%B8%D0%B9_%D0%BE%D1%80%D0%B5%D1%88%D0%B5%D0%BA%204.jpg)
+}
+
+h5 {
+    color: white;
+    text-shadow: 0 0 5px #000000
 }
