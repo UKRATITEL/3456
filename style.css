@@ -110,6 +110,13 @@ down::after {
     flex-basis: 50%;
 }
 
+.col1 {
+    height: 50%;
+    width: 150px;
+    flex-basis: 50%;
+    overflow-x: hidden;
+}
+
 h1 {
     color: #fff;
     font-size: 380%;
@@ -142,6 +149,7 @@ button:hover {
     display: inline-block;
     border-radius: 20px;
     padding: 15px 25px;
+    margin: 5px 5px;
     cursor: pointer;
     margin: 10xp 10px;
     background-position: center;

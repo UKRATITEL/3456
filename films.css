@@ -57,13 +57,18 @@ nav ul li a:hover {
     font-size: 135%;
 }
 
+.navbar li {
+    display: inline-block;
+    position: relative;
+}
+
 .row {
     display: flex;
     height: 80%;
     align-items: center;
 }
 
-h5{
+h5 {
     color: white;
     font-size: 80px;
     margin-top: 3px;
@@ -82,7 +87,7 @@ p {
     text-overflow: ellipsis;
 }
 
-.card img{
+.card img {
     width: 400px;
     height: 550px;
     padding: 15px 25px;
@@ -90,7 +95,7 @@ p {
     position: relative;
 }
 
-.info{
+.info {
     position: relative;
     bottom: ;
     left: ;
@@ -99,4 +104,47 @@ p {
     background-color: rgba(124, 124, 124, 0.62);
     border: 10px solid rgba(255, 255, 255, 0.42);
     box-shadow: 0 0 6px #A9A9A9
+}
+
+.submenu {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #003539;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    width: 100%;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0% 0%;
+    transition: .6 ease-in-out
+}
+
+.submenu li a {
+    color: #7f7f7f;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0px 25px;
+    position: relative;
+    right: 60px;
+    transition: .4s ease-in-out;
+}
+
+.navbar li a:hover {
+    color: #E6855F;
+}
+
+.navbar li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg)
+}
+
+down::after {
+    margin-left: 8px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 380%;
 }
