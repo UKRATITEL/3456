@@ -1,84 +1,84 @@
 const questions = [
 {
-    question: "Какое число жизни?",
+    question: "Какой главный герой?",
     answers: [
         {
-            text: "11",
+            text: "Танос",
             correct: false
             },
         {
-            text: "42",
+            text: "Пол Эджкомб",
             correct: true
             },
         {
-            text: "56",
+            text: "Какой-то чел",
             correct: false
             },
         {
-            text: "666",
+            text: "Никто",
             correct: false
             },
         ]
     },
 {
-    question: "Как называется камень в майнкрафте?",
+    question: "Какой бюджет?",
     answers: [
         {
-            text: "каблстоун",
+            text: "3 миллиарда",
             correct: false
             },
         {
-            text: "булыжник",
+            text: "Его делали без бюджета",
             correct: false
             },
         {
-            text: "стоун",
+            text: "40 миллионов",
             correct: false
             },
         {
-            text: "Итальянский мрамор",
+            text: "60 миллионов",
             correct: true
             },
         ]
     },
     {
-    question: "Какую игру любит Даня?",
+    question: "Какой год создания фильма?",
     answers: [
         {
-            text: "PUBG",
+            text: "1 яянваря 3001 г.",
             correct: false
             },
         {
-            text: "компьютерную",
+            text: "18 апреля 2000 г.",
             correct: true
             },
         {
-            text: "Fortinate",
+            text: "12 июня 1998 г.",
             correct: false
             },
         {
-            text: "Standoff2",
+            text: "32 января 1994 г.",
             correct: false
             },
         ]
     },
     {
-    question: "Какой сериал смотрит мама?",
+    question: "Сайт прикольный?",
     answers: [
         {
-            text: "Правдивая ложь",
+            text: "НЕТ",
             correct: false
             },
         {
-            text: "True lie",
+            text: "Конечно",
             correct: false
             },
         {
-            text: "Интересный",
+            text: "Супер крутой",
             correct: true
             },
         {
-            text: "Никакой",
+            text: "ДА",
             correct: false
             },
         ]

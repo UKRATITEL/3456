@@ -3,19 +3,19 @@ const questions = [
     question: "Какой главный герой?",
     answers: [
         {
-            text: "Форрест Гамп",
-            correct: false
-            },
-        {
-            text: "Луи Замперини",
-            correct: true
-            },
-        {
             text: "Танос",
             correct: false
             },
         {
+            text: "Форрест Гамп",
+            correct: true
+            },
+        {
             text: "Какой-то чел",
+            correct: false
+            },
+        {
+            text: "Пол Эджкомб",
             correct: false
             },
         ]
@@ -36,7 +36,7 @@ const questions = [
             correct: false
             },
         {
-            text: "65 миллионов",
+            text: "55 миллионов",
             correct: true
             },
         ]
@@ -49,7 +49,7 @@ const questions = [
             correct: false
             },
         {
-            text: "15 января 2015 г.",
+            text: "6 июля 1994 г.",
             correct: true
             },
         {
