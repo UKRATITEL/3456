@@ -6,11 +6,11 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom left, #00f526,#009dff);
+    background: linear-gradient(to bottom left, #00f526, #009dff);
 }
 
 .app {
-    background: linear-gradient(340deg, #4b71c6,#c64343);
+    background: linear-gradient(340deg, #4b71c6, #c64343);
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -28,9 +28,7 @@ body {
     font-size: 25px
 }
 
-.quiz {
-
-}
+.quiz {}
 
 .quiz h2 {
     font-size: 18px;
@@ -52,6 +50,7 @@ body {
     cursor: pointer;
 }
 
+
 .btn::hover:not(diabled) {
     color: aqua;
     background: #123;
@@ -62,7 +61,7 @@ body {
     cursor: no-drop
 }
 
-#next-btn{
+#next-btn {
     background: #123;
     color: aliceblue;
     font-weight: 500;
