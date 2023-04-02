@@ -82,3 +82,8 @@ body {
 incorrect {
     background: #321
 }
+
+a button {
+    background: #000000;
+    color: white;
+}
